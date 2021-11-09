@@ -1,0 +1,23 @@
+.header {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  height: 80px;
+  background: #fff;
+  box-shadow: 0 0 10px #e0e0e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header span {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #ecfdf5;
+  color: #34d399;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

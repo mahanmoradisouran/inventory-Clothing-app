@@ -1,0 +1,89 @@
+.product {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(240, 240, 240);
+  background: #fff;
+  margin: 10px;
+  width: 90%;
+  height: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #444;
+}
+
+.product h2 {
+  font-size: 18px;
+  text-align: left;
+}
+
+.product button {
+  border: 1px solid #34d399;
+  border-radius: 5px;
+  background: none;
+  color: #34d399;
+  padding: 10px 15px;
+  font-weight: bold;
+  width: 80px;
+  height: 55px;
+}
+
+.product button:hover {
+  background: #d1fae5;
+}
+
+.product button.increment {
+  color: #fff;
+  background: #34d399;
+  font-size: 18px;
+}
+
+.product button.increment:hover {
+  background: #10b981;
+}
+
+.product span {
+  color: #00ff73;
+  background: #ebfff6;
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product h2 {
+  width: 25%;
+  color: #444;
+  font-weight: normal;
+}
+
+.product .information {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.product input {
+  border: 1px solid #34d399;
+  border-radius: 5px;
+  padding: 10px 20px;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.product input:focus {
+  border-width: 2px;
+}
+
+.product .remove {
+  border: 1px solid #ef4444;
+  color: #ef4444;
+}
+
+.product .remove:hover {
+  background: #fee2e2;
+}

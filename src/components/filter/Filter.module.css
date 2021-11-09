@@ -1,0 +1,17 @@
+.FilterContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 20px auto;
+}
+.search {
+  width: 100%;
+}
+.filter {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+}
